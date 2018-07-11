@@ -4,7 +4,7 @@ class csv extends mysqli
     private $state_csv= false;
     public  function __construct()
     {
-        parent::__construct("localhost","root","","csv");
+        parent::__construct("172.30.105.231","ding","ding","csv");
         if ($this->connect_error) {
             echo "Fail to connect to database:". $this-> connect_error;
         }
