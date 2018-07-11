@@ -12,7 +12,7 @@ if (isset($_POST['sub'])) {
 
 <body>
 <form method="post" enctype="multipart/form-data">
-     <p>File 1:</p>
+     <p>Filed:</p>
     <input type= "file" name="file">
     <br>
     <p>File 2:</p>
